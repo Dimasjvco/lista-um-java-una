@@ -16,6 +16,6 @@ public class Questao4 {
 
     System.out.printf("O montante a ser recebido é de: R$ %.2f", M);
 
-    sc.close();
+    scanner.close();
   }
 }
