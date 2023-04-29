@@ -1,19 +1,17 @@
 import java.util.Scanner;
 public class Questao1 {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
      
     System.out.printf("Digite o primeiro número:");
-     double n1 = sc.nextDouble();
+     double primeiro_numero = scanner.nextDouble();
     System.out.printf("Digite o segundo número:");
-     double n2 = sc.nextDouble();
-     //Aqui coloquei uma linha divisória//
-    System.out.println("----------------------------------");
+     double segundo_numero = scanner.nextDouble();
+    
+    double media_arimetica = (primeiro_numero + segundo_numero2)/2;
 
-    double media = (n1 + n2)/2;
-
-    System.out.println("A média aritmética de " + n1 + " e " + n2 + " é: " + media);
+    System.out.println("A média aritmética de " + primeiro_numero + " e " + segundo_numero + " é: " + media_arimetica);
         
-    sc.close();
+    scanner.close();
   }
 }
