@@ -1,19 +1,16 @@
 import java.util.Scanner;
 public class Questao6 {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
     System.out.println("Digite o primeiro número:");
-     double n1 = sc.nextDouble();
+     double primeiro_numero = scanner.nextDouble();
     System.out.println("Digite o segundo número:");
-     double n2 = sc.nextDouble();
-
-    //Aqui coloquei uma linha divisória//
-    System.out.println("----------------------------------");
+     double segundo_numero = scanner.nextDouble();
     
      double resultado = Math.log(n1) / Math.log(n2);
-    System.out.printf("O logaritimo de " + n1 + " na base " + n2 + " é " + resultado);
+    System.out.printf("O logaritimo de " + primeiro_numero + " na base " + segundo_numero + " é " + resultado);
     
-    sc.close();
+    scanner.close();
   }
 }
